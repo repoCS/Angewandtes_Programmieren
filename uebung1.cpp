@@ -1,14 +1,5 @@
-// Spielvogel Clemens Übung 01
-
-// 1: 1
-// 2: Unsigned int nimmt nur positive Werte an. Speicherplatzverbrauch gleich; daher ist der maximale Wert von unsinged int doppelt so hoch wie jener von int
-// 3: do-while
-// 4: Die Funkion erfordert kein Übergeben von Parametern
-// 5: Nein
-
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 // Strukturen
@@ -143,7 +134,7 @@ void menu(Held spieler, vector<Waffe> waffen, vector<Puppe> puppen)
                 {
                     cout << "Neues Geschlecht (m/w): ";
                     spieler.geschlecht = check_string(spieler.geschlecht);
-                } while (spieler.geschlecht != "m" && spieler.geschlecht != "w");
+                } while (spieler.geschlecht != "m" && spieler.geschlecht != "w");
                 do
                 {
                     cout << "Neues Alter (6-120): ";
